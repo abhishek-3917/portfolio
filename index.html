@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abhishek Prasad — B.Tech CSE student, Full-Stack Developer & ML Enthusiast from Kolkata, India." />
+  <title>Abhishek Prasad — Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav id="nav">
+  <a href="#home" class="nav-logo">AP.</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Experience</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════ HOME ═══════════════════════════ -->
+<section id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-inner">
+    <!-- Left: Text -->
+    <div class="hero-content">
+      <div class="hero-tag">Available for Internships &amp; Opportunities</div>
+      <h1 class="hero-name">Abhishek<br><span>Prasad</span></h1>
+      <p class="hero-role">
+        <strong>Software Engineer</strong> &mdash; Full-Stack &amp; ML Enthusiast<br>
+        B.Tech CSE @ Techno India University, Kolkata
+      </p>
+      <p class="hero-desc">
+        A motivated 3rd-year Computer Science student passionate about building modern
+        web applications, predictive ML models, and impactful digital experiences.
+        Seeking to turn ideas into elegant software.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn-outline">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          Get in Touch
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Photo -->
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-frame">
+        <div class="hero-photo-inner">
+          <img src="image.jpg" alt="photo">
+        </div>
+        <div class="hero-badge">
+          <div class="hero-badge-dot"></div> Open to Opportunities
+        </div>
+        <div class="hero-badge2">🎓 B.Tech CSE 2027</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Passionate about<br>code &amp; craft</h2>
+
+    <div class="about-grid reveal">
+      <!-- Bio + Stats -->
+      <div class="about-text">
+        <p>
+          I'm <strong>Abhishek Prasad</strong>, a 3rd-year B.Tech Computer Science student at
+          <strong>Techno India University, Kolkata</strong>. I thrive at the intersection of
+          full-stack web development and machine learning, always looking to build things that matter.
+        </p>
+        <p>
+          My experience spans developing <strong>responsive web applications</strong> that boost user
+          engagement, to building <strong>predictive ML models</strong> with Python and Scikit-learn.
+          I enjoy collaborating with teams and turning real-world problems into elegant solutions.
+        </p>
+        <p>
+          Currently interning at <strong>NoidaSe Digital</strong> as a Web Development Intern,
+          working on modern UI/UX. I hold certifications from <strong>IBM</strong> and <strong>AWS</strong>
+          and am always leveling up my skills.
+        </p>
+        <div class="about-stats">
+          <div class="stat-box"><div class="stat-num">2+</div><div class="stat-label">Years of Coding</div></div>
+          <div class="stat-box"><div class="stat-num">5+</div><div class="stat-label">Projects Built</div></div>
+          <div class="stat-box"><div class="stat-num">2</div><div class="stat-label">Internships</div></div>
+          <div class="stat-box"><div class="stat-num">2</div><div class="stat-label">Certifications</div></div>
+        </div>
+      </div>
+
+      <!-- Education (populated by XML via JS; static fallback below) -->
+      <div>
+        <div class="section-label" style="margin-bottom:20px">Education</div>
+        <ul class="edu-timeline" id="eduList">
+          <!-- Static fallback (overwritten by JS if data.xml loads) -->
+          <li class="edu-item">
+            <div class="edu-degree">B.Tech in Computer Science &amp; Engineering</div>
+            <div class="edu-school">Techno India University</div>
+            <div class="edu-year">2023 – 2027 · Kolkata</div>
+          </li>
+          <li class="edu-item">
+            <div class="edu-degree">12th Grade (CBSE)</div>
+            <div class="edu-school">Sudhir Memorial Institute</div>
+            <div class="edu-year">2023 · Howrah</div>
+          </li>
+          <li class="edu-item">
+            <div class="edu-degree">10th Grade (ICSE)</div>
+            <div class="edu-school">M C Kejriwal Vidyapeeth</div>
+            <div class="edu-year">2021 · Howrah</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-label">Technical Skills</div>
+    <h2 class="section-title">Tools &amp; Technologies</h2>
+    <p class="section-sub">Technologies I work with — from frontend interfaces to backend logic and ML pipelines.</p>
+
+    <!-- Filter Buttons -->
+    <div class="skills-cats">
+      <button class="cat-btn active" onclick="filterSkills('all', this)">All</button>
+      <button class="cat-btn" onclick="filterSkills('frontend', this)">Frontend</button>
+      <button class="cat-btn" onclick="filterSkills('backend', this)">Backend</button>
+      <button class="cat-btn" onclick="filterSkills('ml', this)">ML / Data</button>
+      <button class="cat-btn" onclick="filterSkills('tools', this)">Tools</button>
+    </div>
+
+    <!-- Skills Grid (populated by XML via JS; static fallback below) -->
+    <div class="skills-container reveal" id="skillsGrid">
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-cat">frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-cat">frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-cat">frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon">⚛️</div><div class="skill-name">React</div><div class="skill-cat">frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon">📱</div><div class="skill-name">Responsive Design</div><div class="skill-cat">frontend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon">🐍</div><div class="skill-name">Python</div><div class="skill-cat">backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon">☕</div><div class="skill-name">Java</div><div class="skill-cat">backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon">🗄️</div><div class="skill-name">SQL</div><div class="skill-cat">backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon">🌿</div><div class="skill-name">Node.js</div><div class="skill-cat">backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon">📋</div><div class="skill-name">XML</div><div class="skill-cat">backend</div></div>
+      <div class="skill-card" data-cat="ml"><div class="skill-icon">🤖</div><div class="skill-name">Machine Learning</div><div class="skill-cat">ml</div></div>
+      <div class="skill-card" data-cat="ml"><div class="skill-icon">🔬</div><div class="skill-name">Scikit-learn</div><div class="skill-cat">ml</div></div>
+      <div class="skill-card" data-cat="ml"><div class="skill-icon">🐼</div><div class="skill-name">Pandas</div><div class="skill-cat">ml</div></div>
+      <div class="skill-card" data-cat="ml"><div class="skill-icon">🔢</div><div class="skill-name">NumPy</div><div class="skill-cat">ml</div></div>
+      <div class="skill-card" data-cat="ml"><div class="skill-icon">📊</div><div class="skill-name">Data Analysis (EDA)</div><div class="skill-cat">ml</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon">🔧</div><div class="skill-name">Git / GitHub</div><div class="skill-cat">tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon">☁️</div><div class="skill-name">AWS Cloud</div><div class="skill-cat">tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon">🐳</div><div class="skill-name">OOP Principles</div><div class="skill-cat">tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon">🔍</div><div class="skill-name">Code Review</div><div class="skill-cat">tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon">🗃️</div><div class="skill-name">Database Design</div><div class="skill-cat">tools</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">Projects</div>
+    <h2 class="section-title">Things I've Built</h2>
+    <p class="section-sub">A showcase of projects demonstrating skills in web development, ML, and problem-solving.</p>
+
+    <!-- Projects Grid (populated by XML via JS; static fallback below) -->
+    <div class="projects-grid reveal" id="projectsGrid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🌐</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Responsive Web Portfolio</div>
+          <p class="project-desc">A fully responsive personal portfolio website built with modern HTML, CSS, and JavaScript. Features smooth animations, client-side validation, and a mobile-first design — boosting user engagement by 30%.</p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag green">Responsive</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🤖</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">ML Predictive Model (IBM Internship)</div>
+          <p class="project-desc">Developed and optimized predictive models using Scikit-learn with advanced feature engineering and hyperparameter tuning. Automated data preprocessing pipelines with Pandas and NumPy.</p>
+          <div class="project-tags">
+            <span class="tag purple">Python</span><span class="tag purple">Scikit-learn</span><span class="tag purple">Pandas</span><span class="tag purple">NumPy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">EDA &amp; Data Insights Dashboard</div>
+          <p class="project-desc">Comprehensive Exploratory Data Analysis on complex datasets to identify key trends. Actionable visualizations that directly influenced project direction and data-driven decisions.</p>
+          <div class="project-tags">
+            <span class="tag purple">Python</span><span class="tag purple">EDA</span><span class="tag green">Data Viz</span><span class="tag green">Insights</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🛒</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Full-Stack Web Application</div>
+          <p class="project-desc">Dynamic full-stack web app built during NoidaSe Digital internship. Responsive UI, REST API integration, database-driven content. Achieved 30% improvement in user engagement metrics.</p>
+          <div class="project-tags">
+            <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag green">Full-Stack</span><span class="tag">UI/UX</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">☁️</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Cloud Infrastructure (AWS)</div>
+          <p class="project-desc">Applied AWS Cloud Foundations knowledge to design and deploy scalable cloud infrastructure. Covers EC2, S3, IAM, and core AWS services, demonstrating cloud architecture best practices.</p>
+          <div class="project-tags">
+            <span class="tag">AWS EC2</span><span class="tag">S3</span><span class="tag green">Cloud</span><span class="tag green">IAM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🗄️</div>
+          <div class="project-links">
+            <a href="https://github.com/abhishek-3917" target="_blank" class="project-link" title="GitHub">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Database Management System</div>
+          <p class="project-desc">Normalized relational database for a college management system. Covers ER modeling, complex SQL queries, stored procedures, and optimization using OOP design principles.</p>
+          <div class="project-tags">
+            <span class="tag">SQL</span><span class="tag">Database Design</span><span class="tag purple">OOP</span><span class="tag purple">Java</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projectsGrid -->
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+<section id="achievements">
+  <div class="section-inner">
+    <div class="section-label">Experience &amp; Achievements</div>
+    <h2 class="section-title">Where I've Worked &amp; Learned</h2>
+
+    <div class="exp-grid reveal">
+
+      <!-- Work Experience (populated by XML via JS; static fallback below) -->
+      <div>
+        <div class="section-label" style="margin-bottom:24px">Work Experience</div>
+        <div id="expContainer">
+          <div class="exp-item">
+            <div class="exp-top">
+              <div>
+                <div class="exp-company">NoidaSe Digital · Noida, Delhi</div>
+                <div class="exp-role">Web Development Intern</div>
+              </div>
+              <div class="exp-date">03/2026 – 06/2026</div>
+            </div>
+            <ul class="exp-desc">
+              <li>Collaborated with designers to enhance UI/UX, improving customer satisfaction.</li>
+              <li>Gained hands-on experience with modern web technologies and tools.</li>
+              <li>Developed responsive websites, boosting user engagement by 30%.</li>
+            </ul>
+          </div>
+          <div class="exp-item">
+            <div class="exp-top">
+              <div>
+                <div class="exp-company">IBM · Virtual</div>
+                <div class="exp-role">PBEL — ML &amp; AI Virtual Intern</div>
+              </div>
+              <div class="exp-date">02/2026</div>
+            </div>
+            <ul class="exp-desc">
+              <li>Developed and optimized predictive models using Scikit-learn with advanced feature engineering.</li>
+              <li>Automated data preprocessing pipelines using Pandas and NumPy, reducing cleaning time.</li>
+              <li>Executed EDA on complex datasets to identify key trends and drive actionable insights.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certs + Languages -->
+      <div>
+        <div class="section-label" style="margin-bottom:24px">Certifications</div>
+        <div class="certs-grid" id="certsContainer">
+          <div class="cert-card"><div class="cert-icon ibm">🤖</div><div><div class="cert-name">Getting Started with Artificial Intelligence</div><div class="cert-issuer">IBM SkillBuild · 2026</div></div></div>
+          <div class="cert-card"><div class="cert-icon aws">☁️</div><div><div class="cert-name">AWS Academy — Cloud Foundations</div><div class="cert-issuer">Amazon Web Services · 2026</div></div></div>
+          <div class="cert-card"><div class="cert-icon ibm">🐍</div><div><div class="cert-name">Machine Learning with Python</div><div class="cert-issuer">IBM PBEL · 2026</div></div></div>
+        </div>
+
+        <div class="section-label" style="margin:40px 0 24px">Languages</div>
+        <div class="exp-item">
+          <div class="lang-row" id="langRow">
+            <div class="lang-item"><span class="lang-flag">🇬🇧</span><div><div class="lang-name">English</div><div class="lang-level">Professional</div></div></div>
+            <div class="lang-item"><span class="lang-flag">🇮🇳</span><div><div class="lang-name">Hindi</div><div class="lang-level">Native</div></div></div>
+            <div class="lang-item"><span class="lang-flag">🇧🇩</span><div><div class="lang-name">Bengali</div><div class="lang-level">Intermediate</div></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Let's Build<br>Something Together</h2>
+
+    <div class="contact-grid reveal">
+
+      <!-- Left: Info cards -->
+      <div>
+        <p style="color:var(--muted);line-height:1.8;font-size:1rem;">
+          I'm actively looking for internship and entry-level opportunities in software development
+          and machine learning. Whether you have a project, opportunity, or just want to connect —
+          my inbox is always open.
+        </p>
+        <div class="contact-info-cards">
+          <a href="mailto:abhishek.mckv.3917@gmail.com" class="contact-info-card" id="contactEmail">
+            <div class="contact-icon">✉️</div>
+            <div><div class="contact-label">Email</div><div class="contact-value">abhishek.mckv.3917@gmail.com</div></div>
+          </a>
+          <a href="tel:+916291867975" class="contact-info-card" id="contactPhone">
+            <div class="contact-icon">📞</div>
+            <div><div class="contact-label">Phone</div><div class="contact-value">+91 62918 67975</div></div>
+          </a>
+          <a href="https://linkedin.com/in/abhishek3917" target="_blank" class="contact-info-card" id="contactLinkedin">
+            <div class="contact-icon">💼</div>
+            <div><div class="contact-label">LinkedIn</div><div class="contact-value">linkedin.com/in/abhishek3917</div></div>
+          </a>
+          <a href="https://github.com/abhishek-3917" target="_blank" class="contact-info-card" id="contactGithub">
+            <div class="contact-icon">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </div>
+            <div><div class="contact-label">GitHub</div><div class="contact-value">github.com/abhishek-3917</div></div>
+          </a>
+          <div class="contact-info-card" id="contactLocation">
+            <div class="contact-icon">📍</div>
+            <div><div class="contact-label">Location</div><div class="contact-value">Howrah, West Bengal, India</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div>
+        <div class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" placeholder="John" />
+              <span class="error-msg" id="fnameError">Please enter your first name.</span>
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" placeholder="john@example.com" />
+            <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" placeholder="Internship Opportunity / Collaboration" />
+            <span class="error-msg" id="subjectError">Please enter a subject.</span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="5" placeholder="Tell me about the opportunity or what you'd like to discuss..."></textarea>
+            <span class="error-msg" id="messageError">Please write a message (min. 20 characters).</span>
+          </div>
+          <button class="btn-primary" onclick="submitForm()" style="width:100%;justify-content:center;">
+            Send Message
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          </button>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <div style="font-size:2rem;margin-bottom:12px">✅</div>
+          <strong>Message Sent!</strong><br>
+          <span style="color:var(--muted);font-size:0.9rem">Thanks for reaching out. I'll get back to you soon.</span>
+        </div>
+      </div>
+
+    </div><!-- /contact-grid -->
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer>
+  <p>Designed &amp; built by <span>Abhishek Prasad</span> · B.Tech CSE · Kolkata 🇮🇳</p>
+  <p style="margin-top:8px;font-size:0.78rem">abhishek.mckv.3917@gmail.com · +91 62918 67975</p>
+</footer>
+
+<!-- External JavaScript (loaded last for performance) -->
+<script src="script.js"></script>
+
+</body>
+</html>

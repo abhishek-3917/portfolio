@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+
+  <personal>
+    <name>Abhishek Prasad</name>
+    <title>Software Engineer</title>
+    <email>abhishek.mckv.3917@gmail.com</email>
+    <phone>+916291867975</phone>
+    <location>Howrah, West Bengal, India 711201</location>
+    <linkedin>https://linkedin.com/in/abhishek3917</linkedin>
+    <github>https://github.com/abhishek-3917</github>
+    <summary>
+      A motivated 3rd-year Computer Science student passionate about building modern web applications,
+      predictive ML models, and impactful digital experiences. Seeking internship and entry-level opportunities.
+    </summary>
+    <photo>image.jpg</photo>
+  </personal>
+
+  <education>
+    <institution>
+      <degree>B.Tech in Computer Science &amp; Engineering</degree>
+      <school>Techno India University</school>
+      <year>2023 – 2027</year>
+      <location>Kolkata</location>
+    </institution>
+    <institution>
+      <degree>12th Grade (CBSE)</degree>
+      <school>Sudhir Memorial Institute</school>
+      <year>2023</year>
+      <location>Howrah</location>
+    </institution>
+    <institution>
+      <degree>10th Grade (ICSE)</degree>
+      <school>M C Kejriwal Vidyapeeth</school>
+      <year>2021</year>
+      <location>Howrah</location>
+    </institution>
+  </education>
+
+  <skills>
+    <skill category="frontend"><name>HTML5</name><icon>🌐</icon></skill>
+    <skill category="frontend"><name>CSS3</name><icon>🎨</icon></skill>
+    <skill category="frontend"><name>JavaScript</name><icon>⚡</icon></skill>
+    <skill category="frontend"><name>React</name><icon>⚛️</icon></skill>
+    <skill category="frontend"><name>Responsive Design</name><icon>📱</icon></skill>
+    <skill category="backend"><name>Python</name><icon>🐍</icon></skill>
+    <skill category="backend"><name>Java</name><icon>☕</icon></skill>
+    <skill category="backend"><name>SQL</name><icon>🗄️</icon></skill>
+    <skill category="backend"><name>Node.js</name><icon>🌿</icon></skill>
+    <skill category="backend"><name>XML</name><icon>📋</icon></skill>
+    <skill category="ml"><name>Machine Learning</name><icon>🤖</icon></skill>
+    <skill category="ml"><name>Scikit-learn</name><icon>🔬</icon></skill>
+    <skill category="ml"><name>Pandas</name><icon>🐼</icon></skill>
+    <skill category="ml"><name>NumPy</name><icon>🔢</icon></skill>
+    <skill category="ml"><name>Data Analysis (EDA)</name><icon>📊</icon></skill>
+    <skill category="tools"><name>Git / GitHub</name><icon>🔧</icon></skill>
+    <skill category="tools"><name>AWS Cloud</name><icon>☁️</icon></skill>
+    <skill category="tools"><name>OOP Principles</name><icon>🐳</icon></skill>
+    <skill category="tools"><name>Code Review</name><icon>🔍</icon></skill>
+    <skill category="tools"><name>Database Design</name><icon>🗃️</icon></skill>
+  </skills>
+
+  <projects>
+    <project>
+      <icon>🌐</icon>
+      <title>Responsive Web Portfolio</title>
+      <description>A fully responsive personal portfolio website built with modern HTML, CSS, and JavaScript. Features smooth animations, client-side form validation, and a mobile-first design approach — boosting user engagement by 30%.</description>
+      <tags>
+        <tag type="cyan">HTML5</tag>
+        <tag type="cyan">CSS3</tag>
+        <tag type="cyan">JavaScript</tag>
+        <tag type="green">Responsive</tag>
+      </tags>
+    </project>
+    <project>
+      <icon>🤖</icon>
+      <title>ML Predictive Model (IBM Internship)</title>
+      <description>Developed and optimized predictive models using Scikit-learn. Implemented advanced feature engineering and hyperparameter tuning, increasing model accuracy significantly. Automated data preprocessing pipelines with Pandas and NumPy.</description>
+      <tags>
+        <tag type="purple">Python</tag>
+        <tag type="purple">Scikit-learn</tag>
+        <tag type="purple">Pandas</tag>
+        <tag type="purple">NumPy</tag>
+      </tags>
+    </project>
+    <project>
+      <icon>📊</icon>
+      <title>EDA &amp; Data Insights Dashboard</title>
+      <description>Executed comprehensive Exploratory Data Analysis on complex datasets to identify key trends. Provided actionable insights through visualizations that directly influenced project direction and decisions.</description>
+      <tags>
+        <tag type="purple">Python</tag>
+        <tag type="purple">EDA</tag>
+        <tag type="green">Data Viz</tag>
+        <tag type="green">Insights</tag>
+      </tags>
+    </project>
+    <project>
+      <icon>🛒</icon>
+      <title>Full-Stack Web Application</title>
+      <description>A dynamic full-stack web application built during the NoidaSe Digital internship. Features a responsive UI, REST API integration, and database-driven content achieving a 30% improvement in user engagement.</description>
+      <tags>
+        <tag type="cyan">HTML/CSS</tag>
+        <tag type="cyan">JavaScript</tag>
+        <tag type="green">Full-Stack</tag>
+        <tag type="cyan">UI/UX</tag>
+      </tags>
+    </project>
+    <project>
+      <icon>☁️</icon>
+      <title>Cloud Infrastructure Project (AWS)</title>
+      <description>Applied AWS Cloud Foundations knowledge to design and deploy scalable cloud infrastructure. Covers EC2, S3, IAM, and core AWS services, demonstrating understanding of cloud architecture best practices.</description>
+      <tags>
+        <tag type="cyan">AWS EC2</tag>
+        <tag type="cyan">S3</tag>
+        <tag type="green">Cloud</tag>
+        <tag type="green">IAM</tag>
+      </tags>
+    </project>
+    <project>
+      <icon>🗄️</icon>
+      <title>Database Management System</title>
+      <description>Designed and implemented a normalized relational database for a college management system. Covers ER modeling, complex SQL queries, stored procedures, and optimization using OOP principles.</description>
+      <tags>
+        <tag type="cyan">SQL</tag>
+        <tag type="cyan">Database Design</tag>
+        <tag type="purple">OOP</tag>
+        <tag type="purple">Java</tag>
+      </tags>
+    </project>
+  </projects>
+
+  <experience>
+    <job>
+      <company>NoidaSe Digital</company>
+      <location>Noida, Delhi</location>
+      <role>Web Development Intern</role>
+      <period>03/2026 – 06/2026</period>
+      <points>
+        <point>Collaborated with designers to enhance UI/UX, improving customer satisfaction.</point>
+        <point>Gained hands-on experience with modern web technologies and tools.</point>
+        <point>Developed responsive websites, boosting user engagement by 30%.</point>
+      </points>
+    </job>
+    <job>
+      <company>IBM</company>
+      <location>Virtual</location>
+      <role>PBEL — ML &amp; AI Virtual Intern</role>
+      <period>02/2026</period>
+      <points>
+        <point>Developed and optimized predictive models using Scikit-learn with advanced feature engineering.</point>
+        <point>Automated data preprocessing pipelines using Pandas and NumPy, reducing cleaning time.</point>
+        <point>Executed EDA on complex datasets to identify key trends and drive actionable insights.</point>
+      </points>
+    </job>
+  </experience>
+
+  <certifications>
+    <cert>
+      <icon>🤖</icon>
+      <type>ibm</type>
+      <name>Getting Started with Artificial Intelligence</name>
+      <issuer>IBM SkillBuild · 2026</issuer>
+    </cert>
+    <cert>
+      <icon>☁️</icon>
+      <type>aws</type>
+      <name>AWS Academy — Cloud Foundations</name>
+      <issuer>Amazon Web Services · 2026</issuer>
+    </cert>
+    <cert>
+      <icon>🐍</icon>
+      <type>ibm</type>
+      <name>Machine Learning with Python</name>
+      <issuer>IBM PBEL · 2026</issuer>
+    </cert>
+  </certifications>
+
+  <languages>
+    <language><flag>🇬🇧</flag><name>English</name><level>Professional</level></language>
+    <language><flag>🇮🇳</flag><name>Hindi</name><level>Native</level></language>
+    <language><flag>🇧🇩</flag><name>Bengali</name><level>Intermediate</level></language>
+  </languages>
+
+</portfolio>
